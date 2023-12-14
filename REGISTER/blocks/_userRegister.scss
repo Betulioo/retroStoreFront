@@ -1,0 +1,107 @@
+.user-register {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://i.gifer.com/Q81V.gif");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-top: 6%;
+
+  .logo {
+    height: 120px;
+    display: flex;
+  }
+
+  .register-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .register-block {
+    background-color: #e23754;
+    width: 25%;
+    height: 71%;
+    margin-left: 150px;
+    margin-top: 40px;
+    border: white 2px solid;
+    position: relative;
+    left: 29%;
+
+    .register-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+    }
+
+    h2 {
+      font-family: "Upheaval";
+      color: white;
+      font-size: 34px;
+      margin-left: 30px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      -webkit-text-stroke: 1px black;
+    }
+
+    label {
+      font-family: "Upheaval";
+      color: white;
+      font-size: 18px;
+      
+      margin-top: 20px;
+      -webkit-text-stroke: 1px black;
+      display: flex;
+      flex-direction: column;
+
+      input {
+        width: 420px;
+        margin-top: 10px;
+        height: 30px;
+      }
+
+      .short-input {
+        // width: 200px;
+        margin-top: 10px;
+        height: 30px;
+        width: 420px;
+      }
+    }
+
+    button {
+      width: 100px;
+      height: 40px;
+      background-color: #eb5485;
+      color: white;
+      font-family: "Upheaval";
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #3c3345;
+      color: white;
+      
+    }
+  }
+}
+.navbar__li{
+  font-family: "Upheaval";
+}
+.navbar__img{
+  width: 150px;
+   height: 100px
+}
+.navbar2{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.navbg{
+  background-color: #eb5485;
+}

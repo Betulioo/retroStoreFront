@@ -1,0 +1,36 @@
+header {
+
+  background-color: #1c063f;
+}
+
+.gifs {
+  display: flex;
+  justify-content: center;
+ 
+
+  img {
+    height: 200px;
+  }
+
+}
+
+.logo {
+  height: 120px;
+  display: flex;
+}
+
+.div-search{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.search{
+    
+    width: 300px;
+    padding-right: 30px;
+    height: 30px;
+    font-family: "Upheaval";
+    margin-right: 30px;
+}

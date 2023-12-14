@@ -1,0 +1,63 @@
+header {
+  background-color: #1c063f;
+
+  .logo {
+    height: 120px;
+    display: flex;
+  }
+}
+
+.profile-bg {
+  height: 88vh;
+  background-color: #1c063f;
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+
+  .profile-box {
+    height: 80%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 7%;
+  }
+}
+
+.profile-box {
+  background-image: url("../../PROFILE/assets/PROFILE_2.png");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 90%;
+}
+
+.profile-info {
+  font-family: "Upheaval";
+  color: black;
+  position: absolute;
+  top: 34%;
+  left: 33%;
+  margin: 0
+}
+
+.name-profile{
+  font-size: 35px;
+}
+.navbar__li{
+  font-family: "Upheaval";
+}
+.navbar__img{
+  width: 150px;
+   height: 100px
+}
+.navbar2{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.navbg{
+  background-color: rgb(9, 172, 242);
+}
