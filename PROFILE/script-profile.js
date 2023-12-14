@@ -24,7 +24,7 @@
 const localgetFetch = async () => {
   const token = localStorage.getItem("token")
 ;
-  const response = await fetch(`http://localhost:5000/user/profile`, {
+  const response = await fetch(`https://videogame-store-bd.vercel.app/user/profile`, {
     method: "GET",
     headers: {
       Authorization: `Bearer ${token}`,

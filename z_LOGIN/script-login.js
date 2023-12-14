@@ -2,7 +2,7 @@ const register$$ = document.querySelector("section");
 
 const localpostFetch = async (formData) => {
 try {
-    const response = await fetch("http://localhost:5000/user/login",{method:'POST', body:JSON.stringify(formData), headers:{
+    const response = await fetch("https://videogame-store-bd.vercel.app/user/login",{method:'POST', body:JSON.stringify(formData), headers:{
       "content-Type": "application/json"
     }});
     const result = await response.json()
