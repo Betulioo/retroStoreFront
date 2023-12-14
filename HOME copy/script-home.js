@@ -2,7 +2,7 @@ const allgames$$ = document.querySelector(".all-videogames");
 
 const localgetFetch = async () => {
   const response = await fetch(
-    "http://localhost:5000/videogames/getallvideogames",
+    "https://videogame-store-bd.vercel.app/videogames/getallvideogames",
     { method: "GET" }
   );
   const result = await response.json();

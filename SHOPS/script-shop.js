@@ -1,7 +1,7 @@
 // const allshops$$ = document.querySelector("allshops");
 
 const getAllShops = async () => {
-  const response = await fetch("http://localhost:5000/shops/allshops", {
+  const response = await fetch("https://videogame-store-bd.vercel.app/shops/allshops", {
     method: "GET",
   });
   const result = await response.json();

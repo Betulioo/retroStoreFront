@@ -1,7 +1,7 @@
 const register$$ = document.querySelector("section");
 
 const localgetFetch = async () => {
-  const response = await fetch("http://localhost:5000/videogames/getallvideogames",{method:'GET'});
+  const response = await fetch("https://videogame-store-bd.vercel.app/videogames/getallvideogames",{method:'GET'});
   const result = await response.json();
   console.log(result)
   return
@@ -9,7 +9,7 @@ const localgetFetch = async () => {
 
 const localpostFetch = async (formData) => {
 try {
-    const response = await fetch("http://localhost:5000/user/register",{method:'POST', body:JSON.stringify(formData), headers:{
+    const response = await fetch("https://videogame-store-bd.vercel.app/user/register",{method:'POST', body:JSON.stringify(formData), headers:{
       "content-Type": "application/json"
     }});
     const result = await response.json()
