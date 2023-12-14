@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Upheaval";
-  src: url("../../FONT/upheavtt.ttf");
+  src: url("https://retro-store-front.vercel.app/FONT/upheavtt.ttf");
 }
 .user-register {
   height: 100vh;

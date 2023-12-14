@@ -16,7 +16,7 @@ try {
     
     if(response.ok){
       console.log("datos enviados con exito")
-      window.location.href = "../z_LOGIN/index-login.html"
+      window.location.href = "https://retro-store-front.vercel.app/z_LOGIN/index-login.html"
     }else{
       console.error("error al enviar los datos")
     }
