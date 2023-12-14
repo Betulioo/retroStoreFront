@@ -187,7 +187,7 @@ const logOut = () =>{
   const logOut$$ = document.querySelector("#logOut");
   logOut$$.addEventListener("click", ()=>{
     localStorage.removeItem("token");
-    window.location.href = "../z_LOGIN/index-login.html"
+    window.location.href = "https://retro-store-front.vercel.app/z_LOGIN/index-login.html"
   })
 }
 const init = async () => {
